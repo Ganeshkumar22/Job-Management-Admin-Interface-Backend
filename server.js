@@ -13,7 +13,7 @@ const app = express();
 // Middleware
 app.use(
   cors({
-    origin: "https://job-management-admin-interface-frontend-jh5scwwe4.vercel.app",
+    origin: "https://job-management-admin-interface-frontend-seven.vercel.app",
     methods: "GET,HEAD,PUT,PATCH,POST,DELETE",
     allowedHeaders: "Content-Type,Authorization",
     credentials: true,
