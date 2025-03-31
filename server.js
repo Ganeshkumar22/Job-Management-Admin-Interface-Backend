@@ -11,10 +11,9 @@ dotenv.config();
 const app = express();
 
 // Middleware
-// Middleware
 app.use(
   cors({
-    origin: "*",
+    origin: "https://job-management-admin-interface-frontend-seven.vercel.app",
     methods: "GET,HEAD,PUT,PATCH,POST,DELETE",
     allowedHeaders: "Content-Type,Authorization",
     credentials: true,
